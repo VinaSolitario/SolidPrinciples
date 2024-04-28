@@ -1,5 +1,4 @@
 # Order Processing System
-Description
 This project implements an order processing system that follows the SOLID principles of object-oriented design. The system is responsible for handling various aspects of order processing, including placing orders, generating invoices, sending notifications, and calculating totals.
 
 # Problem Statement
