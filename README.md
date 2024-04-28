@@ -8,6 +8,9 @@ The existing codebase for the order processing system violates the SOLID princip
 # Refactoring Approach
 To address the issues with the existing codebase and adhere to SOLID principles, the following refactoring approach was taken:
 
-# Splitting Interfaces: The Order interface was split into smaller, more cohesive interfaces, each responsible for a single aspect of the order processing system.
-# Implementing Separate Classes: Concrete implementations were provided for each interface, ensuring that each class has a single responsibility.
-# Client Usage: The client code (OrderTest) was updated to use the new interfaces and classes accordingly.
+# Splitting Interfaces
+The Order interface was split into smaller, more cohesive interfaces, each responsible for a single aspect of the order processing system.
+# Implementing Separate Classes
+Concrete implementations were provided for each interface, ensuring that each class has a single responsibility.
+# Client Usage
+The client code (OrderTest) was updated to use the new interfaces and classes accordingly.
